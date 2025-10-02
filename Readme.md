@@ -209,25 +209,34 @@ The dashboard includes 5 interactive pages:
 - **Carrier Performance**: Ranked by anomaly rate
 - **Monthly Trends**: Anomaly rate over time
 
+<img width="1075" height="587" alt="image" src="https://github.com/user-attachments/assets/d0c4d77f-5ba8-417f-9ead-f15d28d8a813" />
+
 ### 2. Carrier Analytics
 - Carrier comparison by cost and anomaly rate
 - Drill-through capability for detailed analysis
 - Performance scorecards
 
+<img width="1064" height="602" alt="image" src="https://github.com/user-attachments/assets/c44f1957-48fa-4561-a6f3-6c0004d5068a" />
+
 ### 3. Route Analytics
 - Geographic route visualization
 - Route performance heatmap
 - Cost distribution by route
+<img width="1083" height="595" alt="image" src="https://github.com/user-attachments/assets/1f660a4a-4693-4197-b716-89930abf9fea" />
 
 ### 4. Anomaly Details
 - Top 10 most expensive anomalies
 - Risk category breakdown (High: 39%, Medium: 61%)
 - Filterable anomaly table
 
+<img width="1087" height="591" alt="image" src="https://github.com/user-attachments/assets/0fdaa8c9-0697-48cc-be58-780c6cd09646" />
+
 ### 5. Temporal Analysis
 - Monthly/quarterly trends
 - Day-of-week patterns
 - Seasonal anomaly patterns
+
+<img width="1084" height="585" alt="image" src="https://github.com/user-attachments/assets/f544098a-8541-4fd6-909c-1724700a1d8a" />
 
 ---
 
@@ -369,5 +378,6 @@ This project is licensed under the MIT License.
 ---
 
 **If you find this project useful, please star the repository!**
+
 
 **Contact**: For questions or collaboration opportunities, feel free to reach out.
