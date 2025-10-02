@@ -1,0 +1,81 @@
+
+POWER BI DASHBOARD SETUP GUIDE
+==============================
+
+Generated: 2025-10-01 23:47:24
+
+DATASETS CREATED:
+-----------------
+1. logistics_dashboard_data.csv (32,065 rows)
+   - Main dataset for detailed analysis
+   - Use for drill-through and detailed views
+
+2. carrier_performance_summary.csv (8 rows)
+   - Pre-aggregated carrier metrics
+   - Use for carrier comparison charts
+
+3. route_performance_summary.csv (10 rows)
+   - Pre-aggregated route metrics  
+   - Use for route analysis maps/charts
+
+4. monthly_trends.csv (13 rows)
+   - Monthly aggregated trends
+   - Use for time series analysis
+
+5. risk_analysis.csv (2 rows)
+   - Risk category breakdown
+   - Use for risk distribution charts
+
+6. top_10_expensive_anomalies.csv (10 rows)
+   - Most costly problematic shipments
+   - Use for management attention
+
+7. top_10_longest_delays.csv (10 rows)
+   - Longest delay incidents
+   - Use for operational review
+
+8. dashboard_metrics.csv (1 row)
+   - Key performance indicators
+   - Use for summary cards
+
+RECOMMENDED DASHBOARD STRUCTURE:
+--------------------------------
+1. EXECUTIVE SUMMARY PAGE
+   - KPI Cards: Total shipments, anomaly rate, total costs
+   - Carrier performance comparison
+   - Monthly trend chart
+
+2. CARRIER ANALYTICS PAGE  
+   - Carrier ranking by anomaly rate
+   - Cost analysis by carrier
+   - Delay patterns by carrier
+
+3. ROUTE ANALYTICS PAGE
+   - Route performance map
+   - Route comparison charts
+   - Geographic hot spots
+
+4. ANOMALY DETAILS PAGE
+   - Anomaly breakdown by risk category
+   - Top expensive anomalies list
+   - Root cause analysis
+
+5. TEMPORAL ANALYSIS PAGE
+   - Monthly/quarterly trends
+   - Weekend vs weekday performance
+   - Seasonal patterns
+
+IMPORTANT NOTES:
+----------------
+- All data is pre-cleaned and optimized for Power BI
+- Relationships: Use carrier_name and route as keys
+- Refresh schedule: Daily recommended
+- File location: ./powerbi/ folder
+
+NEXT STEPS:
+-----------
+1. Open Power BI Desktop
+2. Import these CSV files
+3. Create relationships between tables
+4. Build visualizations following the structure above
+5. Publish to Power BI Service for sharing

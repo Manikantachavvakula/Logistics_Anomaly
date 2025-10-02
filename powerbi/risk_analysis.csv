@@ -1,0 +1,3 @@
+risk_category,shipment_count,avg_delay,total_cost,avg_cost,avg_breach,cost_percentage
+High,3207,6651.25,13365689.76,4167.66,3096.43,39.0
+Medium,28858,1062.26,20906045.22,724.45,45.71,61.0

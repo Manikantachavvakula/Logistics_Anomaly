@@ -1,0 +1,11 @@
+shipment_id,carrier_name,route,shipment_date,delay_minutes,total_additional_cost,risk_category
+4957,Maersk,New_York-Hamburg,2025-07-25,27360.0,36000.0,High
+7436,Kuehne_Nagel,New_York-Hamburg,2025-08-18,20160.0,27685.3,High
+12703,Maersk,London-Singapore,2025-04-02,25920.0,27000.0,High
+14009,FedEx,Los_Angeles-Tokyo,2024-10-27,18720.0,26935.7,High
+31155,FedEx,Los_Angeles-Tokyo,2024-12-19,18720.0,26400.0,High
+12949,MSC,Shanghai-Rotterdam,2024-11-09,24480.0,25200.0,High
+22035,Kuehne_Nagel,New_York-Hamburg,2024-12-06,18720.0,24885.63,High
+24893,FedEx,Los_Angeles-Tokyo,2025-07-18,17280.0,24000.0,High
+23450,CMA_CGM,Hong_Kong-Tokyo,2025-01-02,18720.0,22301.68,High
+25686,Maersk,Los_Angeles-Tokyo,2024-12-26,23040.0,22095.13,High

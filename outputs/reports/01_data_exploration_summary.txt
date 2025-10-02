@@ -1,0 +1,13 @@
+LOGISTICS DATA EXPLORATION SUMMARY
+================================================================================
+
+Total Shipments: 32,065
+Total Columns: 55
+Date Range: 2024-09-29 to 2025-09-29
+SLA Breach Rate: 9.81%
+Total Cost Impact: $34,271,734.98
+
+Unique Carriers: 8
+Carriers: COSCO, Maersk, CMA_CGM, DHL, Kuehne_Nagel, UPS, MSC, FedEx
+
+Unique Routes: 10

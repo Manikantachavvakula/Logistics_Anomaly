@@ -1,0 +1,2 @@
+total_shipments,total_anomalies,anomaly_rate,total_additional_costs,avg_delay_minutes,sla_breach_count,sla_breach_rate,critical_risk_count,analysis_date
+32065,3207,10.001559332605645,34271734.98,1621.2433182597847,3147,9.814439419928272,0,2025-10-01

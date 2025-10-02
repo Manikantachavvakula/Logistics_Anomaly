@@ -1,0 +1,52 @@
+ROOT CAUSE ANALYSIS REPORT
+================================================================================
+
+EXECUTIVE SUMMARY:
+----------------------------------------
+• Total shipments analyzed: 32,065
+• Anomalies identified: 3,207 (10.0%)
+• Total cost in anomalies: $13,365,689.76
+• Worst carrier: CMA_CGM (12.2% anomaly rate)
+• Worst route: Mumbai-Dubai (16.1% anomaly rate)
+
+KEY RECOMMENDATIONS:
+----------------------------------------
+1. REVIEW CONTRACT with CMA_CGM - highest anomaly rate (12.2%)
+2. OPTIMIZE ROUTE Mumbai-Dubai - most problematic route
+3. ADDRESS DELAY MINUTES - strongest cost driver
+4. IMPLEMENT EARLY WARNING SYSTEM using anomaly detection
+5. FOCUS ON MONTH 12 - peak problem period
+
+DETAILED ANALYSIS:
+----------------------------------------
+
+CARRIER PERFORMANCE:
+              total_shipments  anomalies  avg_delay  avg_breach  total_cost  avg_cost  avg_anomaly_score  anomaly_rate  cost_per_shipment
+carrier_name                                                                                                                             
+CMA_CGM                  4040        491    1531.59      295.84  3842757.19    951.18               0.03          12.2             951.18
+FedEx                    4037        480    1638.03      436.60  4736677.38   1173.32               0.03          11.9            1173.32
+MSC                      3982        444    1627.24      402.49  4291801.95   1077.80               0.03          11.2            1077.80
+DHL                      3862        410    1660.55      280.39  4001560.06   1036.14               0.03          10.6            1036.14
+COSCO                    4082        395    1634.00      311.85  4496472.51   1101.54               0.04           9.7            1101.54
+Maersk                   3970        348    1678.18      329.71  4442433.81   1119.00               0.04           8.8            1119.00
+Kuehne_Nagel             4025        336    1611.48      398.55  4190258.56   1041.06               0.04           8.3            1041.06
+UPS                      4067        303    1591.71      349.11  4269773.52   1049.86               0.04           7.5            1049.86
+
+ROUTE PERFORMANCE:
+                      total_shipments  anomalies  avg_delay  total_cost  avg_cost  anomaly_rate
+route                                                                                          
+Mumbai-Dubai                     3213        516    1559.62  3817759.35   1188.22          16.1
+Hong_Kong-Tokyo                  3223        362    1660.62  3082620.10    956.44          11.2
+London-Singapore                 3261        344    1614.18  3620424.17   1110.22          10.5
+New_York-Hamburg                 3268        327    1706.09  3914398.94   1197.80          10.0
+Rotterdam-New_York               3218        317    1626.26  3577437.31   1111.70           9.9
+Shanghai-Rotterdam               3134        304    1652.20  2927379.56    934.07           9.7
+Singapore-Hamburg                3176        275    1606.47  3402316.30   1071.26           8.7
+Dubai-London                     3229        268    1573.29  3434368.51   1063.60           8.3
+Los_Angeles-Tokyo                3169        256    1571.48  3527043.10   1112.98           8.1
+Shanghai-Los_Angeles             3174        238    1641.13  2967987.64    935.09           7.5
+
+TOP COST DRIVERS:
+  anomaly_score: -0.799
+  sla_breach_minutes: 0.721
+  delay_minutes: 0.616

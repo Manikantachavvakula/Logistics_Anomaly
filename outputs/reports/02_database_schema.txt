@@ -1,0 +1,85 @@
+DATABASE SCHEMA
+================================================================================
+Database: data/logistics_analytics.db
+Created: 2025-10-01 23:14:39.017241
+
+============================================================
+Table: shipments
+============================================================
+  shipment_id                    INTEGER        
+  timestamp                      TEXT           
+  vehicle_gps_latitude           REAL           
+  vehicle_gps_longitude          REAL           
+  fuel_consumption_rate          REAL           
+  eta_variation_hours            REAL           
+  traffic_congestion_level       REAL           
+  warehouse_inventory_level      REAL           
+  loading_unloading_time         REAL           
+  handling_equipment_availability REAL           
+  order_fulfillment_status       REAL           
+  weather_condition_severity     REAL           
+  port_congestion_level          REAL           
+  shipping_costs                 REAL           
+  supplier_reliability_score     REAL           
+  lead_time_days                 REAL           
+  historical_demand              REAL           
+  iot_temperature                REAL           
+  cargo_condition_status         REAL           
+  route_risk_level               REAL           
+  customs_clearance_time         REAL           
+  driver_behavior_score          REAL           
+  fatigue_monitoring_score       REAL           
+  disruption_likelihood_score    REAL           
+  delay_probability              REAL           
+  risk_classification            TEXT           
+  delivery_time_deviation        REAL           
+  carrier_name                   TEXT           
+  stops_count                    INTEGER        
+  route                          TEXT           
+  distance_km                    REAL           
+  shipment_date                  TIMESTAMP      
+  planned_delivery               TIMESTAMP      
+  actual_delivery                TIMESTAMP      
+  delay_minutes                  REAL           
+  carrier_otd_history            REAL           
+  weather_delay_minutes          REAL           
+  port_congestion_minutes        REAL           
+  customs_delay_minutes          REAL           
+  carrier                        TEXT           
+  sla_minutes                    INTEGER        
+  penalty_rate                   INTEGER        
+  service_level                  TEXT           
+  sla_breach_minutes             REAL           
+  disruption_cost                REAL           
+  weather_cost                   REAL           
+  congestion_cost                REAL           
+  customs_cost                   REAL           
+  total_additional_cost          REAL           
+  cargo_value                    REAL           
+  weight_kg                      REAL           
+  is_weekend                     INTEGER        
+  month                          INTEGER        
+  quarter                        INTEGER        
+  route_complexity               REAL           
+
+============================================================
+Table: sla_rules
+============================================================
+  carrier                        TEXT           
+  route                          TEXT           
+  sla_minutes                    INTEGER        
+  penalty_rate                   INTEGER        
+  service_level                  TEXT           
+
+============================================================
+Table: shipments_summary
+============================================================
+  carrier_name                   TEXT           
+  route                          TEXT           
+  shipment_date                  TEXT           
+  delay_minutes                  REAL           
+  sla_breach_minutes             REAL           
+  disruption_cost                REAL           
+  total_additional_cost          REAL           
+  cargo_value                    REAL           
+  weight_kg                      REAL           

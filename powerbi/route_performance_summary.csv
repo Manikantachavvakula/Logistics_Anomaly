@@ -1,0 +1,11 @@
+route,total_shipments,anomaly_count,avg_delay,total_cost,avg_breach,anomaly_rate
+Dubai-London,3229,268,1573.29,3434368.51,415.19,8.3
+Hong_Kong-Tokyo,3223,362,1660.62,3082620.1,232.33,11.2
+London-Singapore,3261,344,1614.18,3620424.17,376.67,10.5
+Los_Angeles-Tokyo,3169,256,1571.48,3527043.1,334.89,8.1
+Mumbai-Dubai,3213,516,1559.62,3817759.35,361.68,16.1
+New_York-Hamburg,3268,327,1706.09,3914398.94,456.06,10.0
+Rotterdam-New_York,3218,317,1626.26,3577437.31,498.05,9.9
+Shanghai-Los_Angeles,3174,238,1641.13,2967987.64,240.45,7.5
+Shanghai-Rotterdam,3134,304,1652.2,2927379.56,199.87,9.7
+Singapore-Hamburg,3176,275,1606.47,3402316.3,385.84,8.7

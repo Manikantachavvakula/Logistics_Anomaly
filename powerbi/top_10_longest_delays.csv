@@ -1,0 +1,11 @@
+shipment_id,carrier_name,route,shipment_date,delay_minutes,total_additional_cost,is_anomaly
+28651,MSC,Hong_Kong-Tokyo,2025-03-18,31680.0,11969.01,1
+4957,Maersk,New_York-Hamburg,2025-07-25,27360.0,36000.0,1
+12703,Maersk,London-Singapore,2025-04-02,25920.0,27000.0,1
+12949,MSC,Shanghai-Rotterdam,2024-11-09,24480.0,25200.0,1
+3343,Kuehne_Nagel,Shanghai-Rotterdam,2025-03-01,23040.0,14289.41,1
+3565,CMA_CGM,Singapore-Hamburg,2025-06-13,23040.0,14964.57,1
+5498,Kuehne_Nagel,Rotterdam-New_York,2025-09-20,23040.0,9220.95,1
+19633,Maersk,Shanghai-Rotterdam,2025-07-27,23040.0,16037.23,1
+25686,Maersk,Los_Angeles-Tokyo,2024-12-26,23040.0,22095.13,1
+30636,MSC,Dubai-London,2025-04-29,23040.0,16050.2,1

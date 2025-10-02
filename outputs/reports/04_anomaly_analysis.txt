@@ -1,0 +1,41 @@
+ANOMALY DETECTION ANALYSIS REPORT
+================================================================================
+
+Analysis Date: 2025-10-01 23:32:37
+Total Shipments: 32,065
+Anomalies Detected: 3,207 (10.0%)
+
+CARRIER ANALYSIS:
+----------------------------------------
+              total_shipments  anomalies  anomaly_rate  avg_anomaly_score  total_cost
+carrier_name                                                                         
+CMA_CGM                  4040        491         12.15             0.0258  3842757.19
+COSCO                    4082        395          9.68             0.0356  4496472.51
+DHL                      3862        410         10.62             0.0317  4001560.06
+FedEx                    4037        480         11.89             0.0328  4736677.38
+Kuehne_Nagel             4025        336          8.35             0.0388  4190258.56
+MSC                      3982        444         11.15             0.0333  4291801.95
+Maersk                   3970        348          8.77             0.0383  4442433.81
+UPS                      4067        303          7.45             0.0410  4269773.52
+
+RISK CATEGORY ANALYSIS:
+----------------------------------------
+               count  avg_delay  avg_cost   total_cost  avg_breach_minutes
+risk_category                                                             
+Critical           0        NaN       NaN         0.00                 NaN
+High            3207    6651.25   4167.66  13365689.76             3096.43
+Medium         28858    1062.26    724.45  20906045.22               45.71
+Low                0        NaN       NaN         0.00                 NaN
+
+TOP 10 FEATURES:
+----------------------------------------
+23. delay_probability: 0.0158
+ 8. handling_equipment_availability: 0.0155
+55. cost_per_kg: 0.0148
+ 3. fuel_consumption_rate: 0.0145
+18. route_risk_level: 0.0143
+ 6. warehouse_inventory_level: 0.0140
+56. cargo_value_density: 0.0140
+92. total_additional_cost_zscore: 0.0138
+21. fatigue_monitoring_score: 0.0138
+41. weight_kg: 0.0136
