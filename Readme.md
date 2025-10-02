@@ -216,7 +216,8 @@ The dashboard includes 5 interactive pages:
 - Drill-through capability for detailed analysis
 - Performance scorecards
 
-<img width="1064" height="602" alt="image" src="https://github.com/user-attachments/assets/c44f1957-48fa-4561-a6f3-6c0004d5068a" />
+<img width="1055" height="599" alt="image" src="https://github.com/user-attachments/assets/89c962f9-b692-499b-b32d-b6b46ef9d2b3" />
+
 
 ### 3. Route Analytics
 - Geographic route visualization
@@ -381,4 +382,5 @@ This project is licensed under the MIT License.
 
 
 **Contact**: For questions or collaboration opportunities, feel free to reach out.
+
 
