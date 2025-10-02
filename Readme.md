@@ -338,7 +338,7 @@ This project is licensed under the MIT License.
 
 ## 👤 Author
 
-**Manik**
+**Manikanta Chavvakula**
 - GitHub:(https://github.com/Manikantachavvakula)
 - Project: Logistics Anomaly Detection System
 - Built: October 2024
@@ -381,3 +381,4 @@ This project is licensed under the MIT License.
 
 
 **Contact**: For questions or collaboration opportunities, feel free to reach out.
+
